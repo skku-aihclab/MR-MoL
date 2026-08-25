@@ -8,7 +8,7 @@ import argparse
 from pathlib import Path
 
 # Add project root to path
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import torch
@@ -273,7 +273,7 @@ def main():
     print("="*60)
     print(f"\nCheckpoints saved to: {checkpoint_config.get('save_dir', 'checkpoints/trained')}")
     print("\nNext step: Run evaluation")
-    print("  python scripts/property_prediction/run_stage2.py --config <config> --eval-only")
+    print("  python scripts/run_stage2.py --config <config> --eval-only")
 
 
 if __name__ == "__main__":

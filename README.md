@@ -1,7 +1,7 @@
 # MR-MoL: Multi-Granular Rationale-Guided Molecular LLM for Property Prediction
 
-**Authors:** Junwoo Park, Minyoung Shin, Cheol Soon Lee, Sujee Lee
-**Preprint:** [arXiv:2608.10480](https://arxiv.org/abs/2608.10480)
+**Authors:** Junwoo Park, Minyoung Shin, Cheol Soon Lee, Sujee Lee<br>
+**Preprint:** [arXiv:2608.10480](https://arxiv.org/abs/2608.10480)<br>
 **Contact:** jw0528@g.skku.edu
 
 <p align="center">
@@ -93,7 +93,7 @@ experiments/stage2/final.pt                    Stage 2, the trained MR-MoL (447 
 With both in place you can evaluate without training:
 
 ```bash
-uv run python scripts/property_prediction/run_stage2.py --config configs/stage2.yaml --eval-only
+uv run python scripts/run_stage2.py --config configs/stage2.yaml --eval-only
 ```
 
 ## Training
@@ -101,10 +101,10 @@ uv run python scripts/property_prediction/run_stage2.py --config configs/stage2.
 ```bash
 # Stage 1: graph-language alignment. Checkpoints are scored on the held-out
 # ChEBI-20 test split; the reported runs start Stage 2 from epoch 10.
-uv run python scripts/property_prediction/train_stage1.py --config configs/stage1.yaml
+uv run python scripts/train_stage1.py --config configs/stage1.yaml
 
 # Stage 2: rationale-guided instruction tuning, then evaluation.
-uv run python scripts/property_prediction/run_stage2.py --config configs/stage2.yaml
+uv run python scripts/run_stage2.py --config configs/stage2.yaml
 ```
 
 ## Citation

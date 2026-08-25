@@ -15,9 +15,9 @@ Checkpoint selection happens inside train_stage2.py and is by validation loss:
 each experiment saves a single `final.pt`.
 
 Usage:
-    python scripts/property_prediction/run_stage2.py --config configs/stage2.yaml
-    python scripts/property_prediction/run_stage2.py --config configs/stage2.yaml --train-only
-    python scripts/property_prediction/run_stage2.py --config configs/stage2.yaml --eval-only
+    python scripts/run_stage2.py --config configs/stage2.yaml
+    python scripts/run_stage2.py --config configs/stage2.yaml --train-only
+    python scripts/run_stage2.py --config configs/stage2.yaml --eval-only
 """
 
 import os
@@ -30,7 +30,7 @@ from datetime import datetime
 
 import yaml
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 CLASSIFICATION_TASKS = {"bace", "bbbp", "clintox", "hiv", "sider", "tox21"}
@@ -103,7 +103,7 @@ def train(config_path, save_dir):
 
     cmd = [
         sys.executable,
-        str(PROJECT_ROOT / "scripts" / "property_prediction" / "train_stage2.py"),
+        str(PROJECT_ROOT / "scripts" / "train_stage2.py"),
         "--config", str(config_path),
     ]
 
@@ -128,7 +128,7 @@ def evaluate_subprocess(save_dir, ckpt_variant=None):
     print(f"\n[EVAL] {save_dir.name}")
     cmd = [
         sys.executable,
-        str(PROJECT_ROOT / "scripts" / "property_prediction" / "run_stage2.py"),
+        str(PROJECT_ROOT / "scripts" / "run_stage2.py"),
         "--eval-single", save_dir.name,
     ]
     if ckpt_variant:
