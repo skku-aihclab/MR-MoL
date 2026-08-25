@@ -1,0 +1,9 @@
+{
+    "name": "rationale",
+    "description": "Multi-granular rationale (Murcko + BRICS fragments + functional groups)",
+    "granularity": [
+        "murcko",
+        "fg",
+        "brics"
+    ]
+}

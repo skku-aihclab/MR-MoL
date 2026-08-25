@@ -1,0 +1,49 @@
+MR-MoL
+Copyright 2026 Junwoo Park
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project includes and builds on work by others, credited below. Every file
+carrying third-party code says so at the top.
+
+--------------------------------------------------------------------------
+LAVIS (BLIP-2 Q-Former)
+  src/models/lavis_qformer.py
+  Copyright (c) 2023, salesforce.com, inc. All rights reserved.
+  SPDX-License-Identifier: BSD-3-Clause
+  https://github.com/salesforce/LAVIS
+  Itself derived from HuggingFace Transformers (Apache-2.0).
+  Copied with import paths adjusted for a newer transformers release; the
+  original BSD-3-Clause notice is preserved in the file.
+
+--------------------------------------------------------------------------
+Substructure Mask Explanation (SME)
+  rationale/attribution/decompose.py
+  Wu et al., "Chemistry-intuitive explanation of graph neural networks for
+  molecular property prediction with substructure masking",
+  Nature Communications 14, 2585 (2023).
+  https://github.com/wzxxxx/Substructure-Mask-Explanation
+  The functional-group SMARTS definitions and two helpers are ported from
+  their build_data.py; the ported blocks are marked inline. The rest of
+  rationale/attribution/ is ours, written with reference to their
+  implementation.
+
+--------------------------------------------------------------------------
+Mole-BERT
+  Not redistributed: download/download_molebert.sh fetches it, and the
+  patches under rationale/molebert/patches/ are ours.
+  Xia et al., "Mole-BERT: Rethinking Pre-training Graph Neural Networks for
+  Molecules", ICLR 2023.
+  https://github.com/junxia97/Mole-BERT
+  Parts of that code descend from "Strategies for Pre-training Graph Neural
+  Networks" (Hu et al., ICLR 2020),
+  https://github.com/snap-stanford/pretrain-gnns, MIT License.
+
+--------------------------------------------------------------------------
+MolCA
+  Not redistributed: download/download_molca.sh fetches the Stage-1 weights.
+  Our projector and graph-encoder wrappers follow MolCA closely enough to
+  load those weights unchanged.
+  Liu et al., "MolCA: Molecular Graph-Language Modeling with Cross-Modal
+  Projector and Uni-Modal Adapter", EMNLP 2023.
+  https://github.com/acharkq/MolCA

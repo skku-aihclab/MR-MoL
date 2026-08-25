@@ -1,0 +1,167 @@
+# Patch for Mole-BERT's loader.py (https://github.com/junxia97/Mole-BERT,
+# Xia et al., ICLR 2023). The context lines below are theirs; the changes
+# are ours. See NOTICE. patch(1) ignores everything before the first '---'.
+--- a/loader.py
++++ b/loader.py
+@@ -58,15 +58,19 @@
+     as indices
+     :param mol: rdkit mol object
+     :return: graph data object with the attributes: x, edge_index, edge_attr
++             Returns None if mol contains unsupported atom/bond types.
+     """
+     # atoms
+     num_atom_features = 2   # atom type,  chirality tag
+     atom_features_list = []
+-    for atom in mol.GetAtoms():
+-        atom_feature = [allowable_features['possible_atomic_num_list'].index(
+-            atom.GetAtomicNum())] + [allowable_features[
+-            'possible_chirality_list'].index(atom.GetChiralTag())]
+-        atom_features_list.append(atom_feature)
++    try:
++        for atom in mol.GetAtoms():
++            atom_feature = [allowable_features['possible_atomic_num_list'].index(
++                atom.GetAtomicNum())] + [allowable_features[
++                'possible_chirality_list'].index(atom.GetChiralTag())]
++            atom_features_list.append(atom_feature)
++    except ValueError:
++        return None
+     x = torch.tensor(np.array(atom_features_list), dtype=torch.long)
+ 
+     # bonds
+@@ -74,17 +78,20 @@
+     if len(mol.GetBonds()) > 0: # mol has bonds
+         edges_list = []
+         edge_features_list = []
+-        for bond in mol.GetBonds():
+-            i = bond.GetBeginAtomIdx()
+-            j = bond.GetEndAtomIdx()
+-            edge_feature = [allowable_features['possible_bonds'].index(
+-                bond.GetBondType())] + [allowable_features[
+-                                            'possible_bond_dirs'].index(
+-                bond.GetBondDir())]
+-            edges_list.append((i, j))
+-            edge_features_list.append(edge_feature)
+-            edges_list.append((j, i))
+-            edge_features_list.append(edge_feature)
++        try:
++            for bond in mol.GetBonds():
++                i = bond.GetBeginAtomIdx()
++                j = bond.GetEndAtomIdx()
++                edge_feature = [allowable_features['possible_bonds'].index(
++                    bond.GetBondType())] + [allowable_features[
++                                                'possible_bond_dirs'].index(
++                    bond.GetBondDir())]
++                edges_list.append((i, j))
++                edge_features_list.append(edge_feature)
++                edges_list.append((j, i))
++                edge_features_list.append(edge_feature)
++        except ValueError:
++            return None
+ 
+         # data.edge_index: Graph connectivity in COO format with shape [2, num_edges]
+         edge_index = torch.tensor(np.array(edges_list).T, dtype=torch.long)
+@@ -272,7 +279,7 @@
+     def __getitem__(self, idx):
+         dataA = Data()
+         dataB = Data()
+-        for key in self.data.keys:
++        for key in self.data.keys():
+             item, slices = self.data[key], self.slices[key]
+             s = list(repeat(slice(None), item.dim()))
+             s[data.__cat_dim__(key, item)] = slice(slices[idx],
+@@ -312,7 +319,7 @@
+         self.transform, self.pre_transform, self.pre_filter = transform, pre_transform, pre_filter
+ 
+         if not empty:
+-            self.data, self.slices = torch.load(self.processed_paths[0])
++            self.data, self.slices = torch.load(self.processed_paths[0], weights_only=False)
+ 
+ 
+     def get(self, idx):
+@@ -320,23 +327,12 @@
+         # data_masked = self.transform(data)
+         # print('data', self.data.edge_index)
+         # print('slices', self.slices)
+-        for key in self.data.keys:
++        for key in self.data.keys():
+             item, slices = self.data[key], self.slices[key]
+             s = list(repeat(slice(None), item.dim()))
+             s[data.__cat_dim__(key, item)] = slice(slices[idx],
+                                                     slices[idx + 1])
+             data[key] = item[s]
+-        # print(data.edge_index)
+-        # transform = MaskAtom(num_atom_type = 119, num_edge_type = 5, mask_rate = 0.15, mask_edge=0)
+-        # if self.transform:
+-        #     data_masked = transform(data)
+-        # with torch.no_grad():
+-        #     atom_ids = tokenizer.get_codebook_indices(data.x, data.edge_index, data.edge_attr)
+-        # dataset = {'data': data, 'label':atom_ids}
+-        # print('data.x', data.x)
+-        # with torch.no_grad():
+-        #     # atom_ids = tokenizer.get_codebook_indices(data.x, data.edge_index, data.edge_attr)
+-        #     atom_ids = torch.zeros(data.x.size(0))
+ 
+         return data
+ 
+@@ -471,9 +467,8 @@
+             for i in range(len(smiles_list)):
+                 print(i)
+                 rdkit_mol = rdkit_mol_objs[i]
+-                ## convert aromatic bonds to double bonds
+-                #Chem.SanitizeMol(rdkit_mol,
+-                                 #sanitizeOps=Chem.SanitizeFlags.SANITIZE_KEKULIZE)
++                if rdkit_mol is None:
++                    continue
+                 data = mol_to_graph_data_obj_simple(rdkit_mol)
+                 # manually add mol id
+                 data.id = torch.tensor(
+@@ -489,10 +484,11 @@
+             for i in range(len(smiles_list)):
+                 print(i)
+                 rdkit_mol = rdkit_mol_objs[i]
+-                # # convert aromatic bonds to double bonds
+-                # Chem.SanitizeMol(rdkit_mol,
+-                #                  sanitizeOps=Chem.SanitizeFlags.SANITIZE_KEKULIZE)
++                if rdkit_mol is None:
++                    continue
+                 data = mol_to_graph_data_obj_simple(rdkit_mol)
++                if data is None:
++                    continue
+                 # manually add mol id
+                 data.id = torch.tensor(
+                     [i])  # id here is the index of the mol in
+@@ -527,10 +523,9 @@
+                 print(i)
+                 rdkit_mol = rdkit_mol_objs[i]
+                 if rdkit_mol != None:
+-                    # # convert aromatic bonds to double bonds
+-                    # Chem.SanitizeMol(rdkit_mol,
+-                    #                  sanitizeOps=Chem.SanitizeFlags.SANITIZE_KEKULIZE)
+                     data = mol_to_graph_data_obj_simple(rdkit_mol)
++                    if data is None:
++                        continue
+                     # manually add mol id
+                     data.id = torch.tensor(
+                         [i])  # id here is the index of the mol in
+@@ -546,10 +541,9 @@
+                 print(i)
+                 rdkit_mol = rdkit_mol_objs[i]
+                 if rdkit_mol != None:
+-                    # # convert aromatic bonds to double bonds
+-                    # Chem.SanitizeMol(rdkit_mol,
+-                    #                  sanitizeOps=Chem.SanitizeFlags.SANITIZE_KEKULIZE)
+                     data = mol_to_graph_data_obj_simple(rdkit_mol)
++                    if data is None:
++                        continue
+                     # manually add mol id
+                     data.id = torch.tensor(
+                         [i])  # id here is the index of the mol in
+@@ -1185,7 +1179,7 @@
+     labels = labels.replace(0, -1)
+     assert len(smiles_list) == len(rdkit_mol_objs_list)
+     assert len(smiles_list) == len(labels)
+-    return smiles_list, rdkit_mol_objs_list, labels.value
++    return smiles_list, rdkit_mol_objs_list, labels.values
+ 
+ def _load_toxcast_dataset(input_path):
+     """

@@ -1,0 +1,49 @@
+# Patch for Mole-BERT's model.py (https://github.com/junxia97/Mole-BERT,
+# Xia et al., ICLR 2023). The context lines below are theirs; the changes
+# are ours. See NOTICE. patch(1) ignores everything before the first '---'.
+--- a/model.py
++++ b/model.py
+@@ -4,7 +4,6 @@
+ from torch_geometric.utils import add_self_loops, degree, softmax
+ from torch_geometric.nn import global_add_pool, global_mean_pool, global_max_pool, GlobalAttention, Set2Set
+ import torch.nn.functional as F
+-from torch_scatter import scatter_add
+ from torch_geometric.nn.inits import glorot, zeros
+ 
+ num_atom_type = 120 #including the extra mask tokens
+@@ -119,7 +118,7 @@
+         edge_weight = torch.ones((edge_index.size(1), ), dtype=dtype,
+                                      device=edge_index.device)
+         row, col = edge_index
+-        deg = scatter_add(edge_weight, row, dim=0, dim_size=num_nodes)
++        deg = torch.zeros(num_nodes, dtype=dtype, device=edge_index.device).scatter_add_(0, row, edge_weight)
+         deg_inv_sqrt = deg.pow(-0.5)
+         deg_inv_sqrt[deg_inv_sqrt == float('inf')] = 0
+ 
+@@ -331,7 +330,7 @@
+ 
+     def from_pretrained(self, model_file):
+         #self.gnn = GNN(self.num_layer, self.emb_dim, JK = self.JK, drop_ratio = self.drop_ratio)
+-        self.load_state_dict(torch.load(model_file))
++        self.load_state_dict(torch.load(model_file, weights_only=False))
+ 
+ 
+ class DiscreteGNN(torch.nn.Module):
+@@ -430,7 +429,7 @@
+ 
+     def from_pretrained(self, model_file):
+         #self.gnn = GNN(self.num_layer, self.emb_dim, JK = self.JK, drop_ratio = self.drop_ratio)
+-        self.load_state_dict(torch.load(model_file))
++        self.load_state_dict(torch.load(model_file, weights_only=False))
+ 
+ class GNN_graphpred(torch.nn.Module):
+     """
+@@ -495,7 +494,7 @@
+ 
+     def from_pretrained(self, model_file):
+         #self.gnn = GNN(self.num_layer, self.emb_dim, JK = self.JK, drop_ratio = self.drop_ratio)
+-        self.gnn.load_state_dict(torch.load(model_file))
++        self.gnn.load_state_dict(torch.load(model_file, weights_only=False))
+ 
+     def forward(self, *argv):
+         if len(argv) == 4:

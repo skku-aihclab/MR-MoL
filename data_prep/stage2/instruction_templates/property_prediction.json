@@ -1,0 +1,1544 @@
+{
+  "bbbp": [
+    {
+      "input": "Can this molecule pass through the blood-brain barrier (BBB)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule permeate the blood-brain barrier?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule have the blood-brain barrier permeability (BBBP)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule have the ability to penetrate the blood-brain barrier?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is this molecule capable of crossing the blood-brain barrier (BBB)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule penetrate the blood-brain barrier?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is this molecule capable of crossing the blood-brain barrier (BBB)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is it likely for this molecule to effectively traverse the blood-brain barrier?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is blood-brain barrier permeability (BBBP) present in this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule demonstrate the potential for blood-brain barrier permeation (BBBP)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does blood-brain barrier permeability (BBBP) apply to this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is blood-brain barrier permeability (BBBP) a property of this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Would this molecule be able to successfully permeate the blood-brain barrier?\n<INPUT>",
+      "output": "<OUTPUT>"
+    }
+  ],
+  "hiv": [
+    {
+      "input": "Is this molecule known to inhibit HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule inhibit viral replication for HIV?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Could this molecule be used to prevent HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule inhibit the replication of human immunodeficiency virus (HIV)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Could HIV replication be slowed or stopped by this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule have an inhibitory impact on HIV?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule effectively inhibit HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule exhibit inhibitory effects on HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is this molecule capable of suppressing HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Would this molecule have the ability to hinder HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule serve as an inhibitor of HIV replication?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Do you suggest that this molecule can impede the replication of HIV?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Predict if this molecule has an inhibitory impact on HIV.\n<INPUT>",
+      "output": "<OUTPUT>"
+    }
+  ],
+  "bace": [
+    {
+      "input": "Can this molecule inhibit human beta-secretase 1 (BACE-1)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is this molecule active against human beta-secretase 1 (BACE-1)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule show inhibitory activity toward BACE-1?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule act as an inhibitor of beta-secretase 1 (BACE-1)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is this molecule likely to bind to and inhibit BACE-1?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule have BACE-1 inhibitory activity?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Would this molecule be classified as active against BACE-1?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Predict whether this molecule is a BACE-1 inhibitor.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is this molecule capable of inhibiting beta-site amyloid precursor protein cleaving enzyme 1 (BACE-1)?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule demonstrate binding activity against BACE-1?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can this molecule be considered a potential BACE-1 active compound?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Is BACE-1 inhibition associated with this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Does this molecule exhibit activity as a beta-secretase 1 inhibitor?\n<INPUT>",
+      "output": "<OUTPUT>"
+    }
+  ],
+  "esol": [
+    {
+      "input": "What is the log solubility of this molecule in water?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Please predict the log solubility of this molecule in water.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Tell me the solubility of this molecule in water.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "How soluble is this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What concentration of this molecule can be dissolved in water?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What is the solubility of this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "How many mols of this molecule can be dissolved in a liter of water?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Could you provide the logarithmic solubility value of this molecule in aqueous solutions?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Give me the log water solubility for this molecule.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What is the log solubility in water for this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What is the logarithmic value of the solubility of this molecule in water?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Can you predict the water solubility of this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Could you tell me the log solubility in water for this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    }
+  ],
+  "lipo": [
+    {
+      "input": "What is the octanol/water distribution coefficient (logD at pH 7.4) of this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Please predict the octanol/water distribution coefficient (logD at pH 7.4) of this molecule.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Tell me the octanol/water distribution coefficient (logD at pH 7.4) of this molecule.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Predict the octanol/water distribution coefficient logD under the circumstance of pH 7.4 for this molecule.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What is the octanol/water distribution coefficient logD under the circumstance of pH 7.4 for this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "For this molecule, predict the octanol/water distribution coefficient (logD at pH 7.4).\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Could you provide information on the octanol/water distribution coefficient (logD) of this molecule under pH 7.4?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "At pH 7.4, what is the logD value (the octanol/water distribution coefficient) of this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What is the logD (the octanol/water distribution coefficient) at pH 7.4 for this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What value does the octanol/water distribution coefficient (logD at pH 7.4) have for this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "What is the logD at pH 7.4 (the octanol/water distribution coefficient) associated with this molecule?\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Provide the logD (the octanol/water distribution coefficient) at pH 7.4 of this molecule.\n<INPUT>",
+      "output": "<OUTPUT>"
+    },
+    {
+      "input": "Please predict the octanol/water distribution coefficient (logD at pH 7.4) for this molecule.\n<INPUT>",
+      "output": "<OUTPUT>"
+    }
+  ],
+  "clintox": {
+    "FDA_APPROVED": [
+      {
+        "input": "Has this molecule been approved by the FDA?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule FDA-approved for clinical use?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Has this molecule received FDA approval?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule approved by the U.S. Food and Drug Administration?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have FDA approval status?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Has this molecule passed FDA approval for therapeutic use?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule an FDA-approved drug?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Would this molecule be classified as FDA-approved?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Has the FDA granted approval for this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule recognized as an FDA-approved compound?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "CT_TOX": [
+      {
+        "input": "Is this molecule toxic?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to exhibit toxic properties in biological systems?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule classified as a hazardous substance with documented toxicity?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have documented toxicity in biological systems?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule considered to be a toxic substance?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have toxicity?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do you think that this molecule is toxic?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule be considered toxic?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule associated with harmful and toxic effects?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule toxic for humans?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ]
+  },
+  "sider": {
+    "Hepatobiliary disorders": [
+      {
+        "input": "Can this molecule cause hepatobiliary disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are hepatobiliary disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause hepatobiliary disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the hepatobiliary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the hepatobiliary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the hepatobiliary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the hepatobiliary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are hepatobiliary system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Metabolism and nutrition disorders": [
+      {
+        "input": "Can this molecule cause metabolism and nutrition disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are metabolism and nutrition disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause metabolism and nutrition disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect metabolism and nutrition?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting metabolism and nutrition?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect metabolism and nutrition?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact metabolism and nutrition?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are metabolism and nutrition functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Eye disorders": [
+      {
+        "input": "Can this molecule cause eye disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are eye disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause eye disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the eyes?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the eyes?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the eyes?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the eyes?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are eye functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Musculoskeletal and connective tissue disorders": [
+      {
+        "input": "Can this molecule cause musculoskeletal and connective tissue disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are musculoskeletal and connective tissue disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause musculoskeletal and connective tissue disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the musculoskeletal system and the connective tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the musculoskeletal system and the connective tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the musculoskeletal system and the connective tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the musculoskeletal system and the connective tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are musculoskeletal system and connective tissues functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Gastrointestinal disorders": [
+      {
+        "input": "Can this molecule cause gastrointestinal disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are gastrointestinal disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause gastrointestinal disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the gastrointestinal system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the gastrointestinal system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the gastrointestinal system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the gastrointestinal system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are gastrointestinal system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Immune system disorders": [
+      {
+        "input": "Can this molecule cause immune system disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are immune system disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause immune system disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the immune system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the immune system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the immune system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the immune system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are immune system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Reproductive system and breast disorders": [
+      {
+        "input": "Can this molecule cause reproductive system and breast disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are reproductive system and breast disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause reproductive system and breast disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the reproductive system and the breasts?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the reproductive system and the breasts?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the reproductive system and the breasts?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the reproductive system and the breasts?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are reproductive system and breast functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": [
+      {
+        "input": "Can this molecule cause neoplasms?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are neoplasms a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause neoplasms?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule linked to the development of neoplasms?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can neoplasms be induced by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have the potential to trigger neoplasms?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is there a correlation between this molecule and the occurrence of neoplasms?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Could this molecule lead to the formation of neoplasms?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Endocrine disorders": [
+      {
+        "input": "Can this molecule cause endocrine disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are endocrine disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the endocrine system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the endocrine system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect hormones?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the endocrine system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact hormones?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are endocrine system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Vascular disorders": [
+      {
+        "input": "Can this molecule cause vascular disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are vascular disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause vascular disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the blood vessels?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the blood vessels?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the blood vessels?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the blood vessels?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are vascular functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Blood and lymphatic system disorders": [
+      {
+        "input": "Can this molecule cause blood and lymphatic system disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are blood and lymphatic system disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause blood and lymphatic system disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the blood and lymphatic system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the blood and lymphatic system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the blood and lymphatic system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the blood and lymphatic system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are blood and lymphatic system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Skin and subcutaneous tissue disorders": [
+      {
+        "input": "Can this molecule cause skin and subcutaneous tissue disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are skin and subcutaneous tissue disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause skin and subcutaneous tissue disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the skin and subcutaneous tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the skin and subcutaneous tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the skin and subcutaneous tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the skin and subcutaneous tissues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are skin and subcutaneous tissues functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Congenital, familial and genetic disorders": [
+      {
+        "input": "Can this molecule increase risk of congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is increased risk of congenital, familial, and genetic disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to increase risk of congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule increase risk of congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule result in an elevated chance of congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can the use of this molecule lead to a higher likelihood of congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule contribute to an amplified hazard of congenital, familial, and genetic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Respiratory, thoracic and mediastinal disorders": [
+      {
+        "input": "Can this molecule cause respiratory, thoracic, and mediastinal disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are respiratory, thoracic, and mediastinal disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause respiratory, thoracic, and mediastinal disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the respiratory system, thorax, and mediastina?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the respiratory system, thorax, and mediastina?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the respiratory system, thorax, and mediastina?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the respiratory system, thorax, and mediastina?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are respiratory system, thorax, and mediastina functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Psychiatric disorders": [
+      {
+        "input": "Can this molecule cause psychiatric disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are psychiatric disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause psychiatric disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect mental health?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting mental health?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect mental health?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact mental health?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is mental health adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Renal and urinary disorders": [
+      {
+        "input": "Can this molecule cause renal and urinary disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are renal and urinary disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause renal and urinary disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the kidneys, bladder, and urinary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the kidneys, bladder, and urinary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the kidneys, bladder and urinary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the kidneys, bladder, and urinary system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are kidneys, bladder, and urinary system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Pregnancy, puerperium and perinatal conditions": [
+      {
+        "input": "Can this molecule cause issues for pregnant or postpartum women?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause issues for pregnant or postpartum women?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect pregnant or postpartum women?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting pregnant or postpartum women?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have side effects to women's pregnancy, puerperium, and perinatal conditions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there adverse effects of this molecule on women's pregnancy, postpartum period, and perinatal health?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does the use of this molecule have any negative impacts on pregnancy, postpartum recovery, or perinatal conditions in women?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can the consumption of this molecule lead to side effects for women in terms of pregnancy, puerperium, and perinatal conditions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Ear and labyrinth disorders": [
+      {
+        "input": "Can this molecule cause ear disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are ear disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause ear disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the ears and auditory system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the ears and auditory system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the ears and auditory system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the ears and auditory system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are ears and auditory system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Cardiac disorders": [
+      {
+        "input": "Can this molecule cause cardiac disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are cardiac disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause cardiac disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the heart?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the heart?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the heart?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the heart?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are heart functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Nervous system disorders": [
+      {
+        "input": "Can this molecule cause nervous system disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are nervous system disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause nervous system disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause side effects that affect the nervous system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known side effects of this molecule affecting the nervous system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect the nervous system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Do the side effects of this molecule impact the nervous system?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are nervous system functions adversely affected by this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Product issues": [
+      {
+        "input": "Can this molecule cause product issues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are product issues a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause product-related issues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have product quality or safety issues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known product issues associated with this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule lead to product-related problems?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can product issues occur with this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule associated with product issues?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Investigations": [
+      {
+        "input": "Can this molecule cause abnormal investigation results?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are abnormal investigations a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause abnormal laboratory findings?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule affect investigation or test results?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule lead to abnormal clinical investigation findings?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect laboratory test results?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are there any known effects of this molecule on clinical investigations?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule associated with abnormal investigation results?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Social circumstances": [
+      {
+        "input": "Can this molecule affect social circumstances?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are social circumstance issues a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to impact social functioning?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect social circumstances?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule cause issues with social circumstances?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule have side effects related to social circumstances?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are social functioning issues associated with this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule linked to social circumstance problems?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "General disorders and administration site conditions": [
+      {
+        "input": "Can this molecule cause general disorders or administration site conditions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are general disorders a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause administration site reactions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule cause general systemic side effects?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule lead to injection or administration site conditions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect general body conditions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are general disorders and administration site issues associated with this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule linked to general systemic disorders?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Surgical and medical procedures": [
+      {
+        "input": "Can this molecule lead to the need for surgical or medical procedures?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are surgical or medical procedures a consequence of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to necessitate surgical interventions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule increase the need for medical procedures?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule result in the requirement for surgical treatment?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule lead to surgical or medical procedure requirements?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are surgical and medical procedures associated with the use of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule linked to the need for medical or surgical interventions?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Infections and infestations": [
+      {
+        "input": "Can this molecule cause infections or infestations?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are infections a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to increase susceptibility to infections?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule predispose to infections and infestations?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule lead to increased risk of infections?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect immune defense against infections?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are infections and infestations associated with the use of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule linked to an increased risk of infections or infestations?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "Injury, poisoning and procedural complications": [
+      {
+        "input": "Can this molecule cause injury, poisoning, or procedural complications?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are injury or poisoning issues a side effect of this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule known to cause procedural complications?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule increase the risk of injury or poisoning?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Can this molecule lead to procedural complications?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule adversely affect injury risk or cause poisoning?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Are injury, poisoning, and procedural complications associated with this molecule?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule linked to injury, poisoning, or procedural complications?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ]
+  },
+  "tox21": {
+    "NR-AR": [
+      {
+        "input": "Can this molecule show activity in the NR-AR assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-AR assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-AR?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-AR assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-AR?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "NR-AR-LBD": [
+      {
+        "input": "Can this molecule show activity in the NR-AR-LBD assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-AR-LBD assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-AR-LBD?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-AR-LBD assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-AR-LBD?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "NR-AhR": [
+      {
+        "input": "Can this molecule show activity in the NR-AhR assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-AhR assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-AhR?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-AhR assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-AhR?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "NR-Aromatase": [
+      {
+        "input": "Can this molecule show activity in the NR-Aromatase assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-Aromatase assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-Aromatase?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-Aromatase assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-Aromatase?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "NR-ER": [
+      {
+        "input": "Can this molecule show activity in the NR-ER assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-ER assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-ER?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-ER assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-ER?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "NR-ER-LBD": [
+      {
+        "input": "Can this molecule show activity in the NR-ER-LBD assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-ER-LBD assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-ER-LBD?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-ER-LBD assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-ER-LBD?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "NR-PPAR-gamma": [
+      {
+        "input": "Can this molecule show activity in the NR-PPAR-gamma assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-PPAR-gamma assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in NR-PPAR-gamma?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the NR-PPAR-gamma assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for NR-PPAR-gamma?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "SR-ARE": [
+      {
+        "input": "Can this molecule show activity in the SR-ARE assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-ARE assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in SR-ARE?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-ARE assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for SR-ARE?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "SR-ATAD5": [
+      {
+        "input": "Can this molecule show activity in the SR-ATAD5 assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-ATAD5 assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in SR-ATAD5?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-ATAD5 assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for SR-ATAD5?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "SR-HSE": [
+      {
+        "input": "Can this molecule show activity in the SR-HSE assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-HSE assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in SR-HSE?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-HSE assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for SR-HSE?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "SR-MMP": [
+      {
+        "input": "Can this molecule show activity in the SR-MMP assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-MMP assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in SR-MMP?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-MMP assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for SR-MMP?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ],
+    "SR-p53": [
+      {
+        "input": "Can this molecule show activity in the SR-p53 assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-p53 assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule show activity in SR-p53?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Is this molecule active in the SR-p53 assay?\n<INPUT>",
+        "output": "<OUTPUT>"
+      },
+      {
+        "input": "Does this molecule exhibit activity for SR-p53?\n<INPUT>",
+        "output": "<OUTPUT>"
+      }
+    ]
+  }
+}

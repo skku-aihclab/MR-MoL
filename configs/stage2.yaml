@@ -1,0 +1,41 @@
+# Stage 2: Multitask instruction-tuning.
+
+model:
+  llm_name: "meta-llama/Llama-3.1-8B-Instruct"
+  graph_dim: 300
+  llm_dim: 4096
+  num_query_tokens: 8
+  dropout: 0.1
+  use_lora: true
+  use_graph: true
+  freeze_projector: false
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+
+training:
+  epochs: 3
+  projector_lr: 2.0e-5
+  lora_lr: 1.0e-4
+  weight_decay: 0.01
+  batch_size: 2
+  gradient_accumulation_steps: 16
+  warmup_ratio: 0.05
+  max_length: 1568
+  max_grad_norm: 1.0
+
+data:
+  template: "rationale"
+  system_prompts_path: "./data_prep/stage2/instruction_templates/system_prompts.json"
+  num_workers: 0
+
+checkpointing:
+  save_dir: "./experiments/stage2"
+  stage1_checkpoint: "./checkpoints/trained/stage1/stage1_epoch10.pt"
+
+hardware:
+  device: "cuda"
+  seed: 42  # use seeds: 42, 43, 44
