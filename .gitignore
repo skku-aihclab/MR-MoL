@@ -27,6 +27,9 @@
 /experiments/
 /results/
 
+# Written by `hf download --local-dir .`
+/.cache/
+
 # Python / tooling
 __pycache__/
 *.py[cod]

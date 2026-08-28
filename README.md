@@ -1,8 +1,7 @@
 # MR-MoL: Multi-Granular Rationale-Guided Molecular LLM for Property Prediction
 
-**Authors:** Junwoo Park, Minyoung Shin, Cheol Soon Lee, Sujee Lee<br>
+
 **Preprint:** [arXiv:2608.10480](https://arxiv.org/abs/2608.10480)<br>
-**Contact:** jw0528@g.skku.edu
 
 <p align="center">
   <img src="figure/overview.png" alt="Overview of MR-MoL" width="820">
@@ -131,3 +130,5 @@ says so at the top.
 This work builds on MolCA (Liu et al., EMNLP 2023), Mole-BERT (Xia et al.,
 ICLR 2023), SME (Wu et al., Nature Communications 2023), and BLIP-2 / LAVIS
 (Li et al., ICML 2023). See [`NOTICE`](NOTICE) for what each contributed.
+
+**Contact:** jw0528@g.skku.edu
