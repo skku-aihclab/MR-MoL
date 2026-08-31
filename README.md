@@ -37,22 +37,21 @@ MR-MoL weights are our own and are released separately (see below).
 
 All data is on Hugging Face at
 [`junwoo00/MR-MoL`](https://huggingface.co/datasets/junwoo00/MR-MoL). The dataset
-repo mirrors this project's layout, so one download puts every file where the
+repo mirrors this project's layout, so downloading it puts every file where the
 code looks for it:
 
 ```bash
-hf download junwoo00/MR-MoL --repo-type dataset \
-    --include "data_prep/*" "rationale/*" --local-dir .
+# One --include per command: the flag's arity differs between huggingface_hub 0.x and 1.x.
+hf download junwoo00/MR-MoL --repo-type dataset --include "data_prep/*" --local-dir .
+hf download junwoo00/MR-MoL --repo-type dataset --include "rationale/*"  --local-dir .
 ```
 
-| | train / valid / test | path |
-|---|---|---|
-| Stage 2 instruction data | 136,670 / 16,306 / 16,210 | `data_prep/stage2/{train,valid,test}/` |
-| Rationale-augmented Stage 2 | 136,670 / 16,306 / 16,210 | `rationale/format/generated/<task>/rationale/<split>/` |
+| | path |
+|---| --|
+| Stage 2 instruction data | `data_prep/stage2/{train,valid,test}/` |
+| Rationale-augmented Stage 2 | `rationale/format/generated/<task>/rationale/<split>/` |
 
-The rationale-augmented data is the exact input behind the reported numbers, so
-with it you can train or evaluate without touching the GNN pipeline. The steps
-below regenerate it from source instead; they need a GPU.
+With the rationale-augmented data you can train or evaluate without touching the GNN pipeline.
 
 ### Stage 1 corpus
 
