@@ -40,6 +40,16 @@ Mole-BERT
   https://github.com/snap-stanford/pretrain-gnns, MIT License.
 
 --------------------------------------------------------------------------
+SMolInstruct
+  data_prep/stage2/instruction_templates/property_prediction.json
+  Yu et al., "LlaSMol: Advancing Large Language Models for Chemistry with a
+  Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset",
+  COLM 2024.
+  https://huggingface.co/datasets/osunlp/SMolInstruct  (CC BY 4.0)
+  The property-prediction instruction templates here were written with
+  reference to theirs.
+
+--------------------------------------------------------------------------
 MolCA
   Not redistributed: download/download_molca.sh fetches the Stage-1 weights.
   Our projector and graph-encoder wrappers follow MolCA closely enough to

@@ -47,13 +47,28 @@ hf download junwoo00/MR-MoL --repo-type dataset \
 
 | | train / valid / test | path |
 |---|---|---|
-| Stage 1 alignment corpus | 89,919 | `data_prep/stage1/train.json` |
 | Stage 2 instruction data | 136,670 / 16,306 / 16,210 | `data_prep/stage2/{train,valid,test}/` |
 | Rationale-augmented Stage 2 | 136,670 / 16,306 / 16,210 | `rationale/format/generated/<task>/rationale/<split>/` |
 
 The rationale-augmented data is the exact input behind the reported numbers, so
 with it you can train or evaluate without touching the GNN pipeline. The steps
 below regenerate it from source instead; they need a GPU.
+
+### Stage 1 corpus
+
+The Stage 1 alignment corpus (89,919 molecule-description pairs) is **not**
+redistributed: it merges ChEBI-20, PubChem324kV2, DrugBank, and
+Mol-Instructions, and DrugBank's terms do not permit redistribution of
+derivative works. Rebuild it from the upstream sources instead —
+`data_prep/stage1/build_stage1.py` lists each one and where to place it, and
+the builder is deterministic, so it reproduces the same 89,919 pairs:
+
+```bash
+uv run python data_prep/stage1/build_stage1.py --out data_prep/stage1/train.json
+```
+
+Build or download Stage 2 first; the Stage 1 builder drops every molecule that
+appears in a Stage 2 task, which is what prevents evaluation leakage.
 
 ### Rationale generation
 
@@ -73,12 +88,12 @@ uv run python rationale/format/generate_rationale.py --task all --all-templates 
 ## Pretrained checkpoints
 
 Trained weights are on Hugging Face at
-[`junwoo00/MR-MoL`](https://huggingface.co/junwoo00/MR-MoL). Download them into
-the paths the configs already point at:
+[`junwoo00/Llama-3.1-8B-MR-MoL`](https://huggingface.co/junwoo00/Llama-3.1-8B-MR-MoL).
+Download them into the paths the configs already point at:
 
 ```bash
-hf download junwoo00/MR-MoL stage1_epoch10.pt --local-dir checkpoints/trained/stage1
-hf download junwoo00/MR-MoL final.pt         --local-dir experiments/stage2
+hf download junwoo00/Llama-3.1-8B-MR-MoL stage1_epoch10.pt --local-dir checkpoints/trained/stage1
+hf download junwoo00/Llama-3.1-8B-MR-MoL final.pt          --local-dir experiments/stage2
 ```
 
 ```
@@ -125,10 +140,16 @@ That license covers the code written for this project. [`NOTICE`](NOTICE) credit
 the third-party work this builds on, and every file carrying third-party code
 says so at the top.
 
+The released weights are a fine-tune of Llama-3.1-8B-Instruct and are governed
+by the [Llama 3.1 Community License](https://huggingface.co/junwoo00/Llama-3.1-8B-MR-MoL/blob/main/LICENSE)
+instead, as stated on the model repo. Built with Llama.
+
 ## Acknowledgements
 
 This work builds on MolCA (Liu et al., EMNLP 2023), Mole-BERT (Xia et al.,
 ICLR 2023), SME (Wu et al., Nature Communications 2023), and BLIP-2 / LAVIS
-(Li et al., ICML 2023). See [`NOTICE`](NOTICE) for what each contributed.
+(Li et al., ICML 2023). The Stage 2 instruction templates were written with
+reference to SMolInstruct (Yu et al., COLM 2024). See [`NOTICE`](NOTICE) for
+what each contributed.
 
 **Contact:** jw0528@g.skku.edu
