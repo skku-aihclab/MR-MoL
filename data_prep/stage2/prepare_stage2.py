@@ -9,6 +9,9 @@ Data sources:
 - Property Prediction: MoleculeNet (BACE, BBBP, ClinTox, HIV, SIDER, ESOL, Lipo,
   Tox21) via DeepChem
 
+The instruction templates in instruction_templates/ were written with
+reference to SMolInstruct (osunlp/SMolInstruct, CC BY 4.0). See NOTICE.
+
 Outputs:
 - <output-dir>/train/{task}.json
 - <output-dir>/valid/{task}.json
