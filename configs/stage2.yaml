@@ -17,7 +17,7 @@ lora:
   target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
 
 training:
-  epochs: 3
+  epochs: 5
   projector_lr: 2.0e-5
   lora_lr: 1.0e-4
   weight_decay: 0.01
